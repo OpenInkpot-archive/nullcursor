@@ -28,7 +28,7 @@
 static void
 err_xcb(int retcode, const char *msg, xcb_generic_error_t *xerr)
 {
-    err(retcode, "%s: %d:%d", msg, xerr->minor_code, xerr->major_code);
+    err(retcode, "%s: %d", msg, xerr->error_code);
 }
 
 static xcb_pixmap_t
