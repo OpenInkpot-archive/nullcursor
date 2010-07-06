@@ -1,3 +1,9 @@
+nullcursor (0.1.1) zelazny; urgency=low
+
+  * Fix Xsession.d snippet
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Tue, 06 Jul 2010 12:00:55 +0700
+
 nullcursor (0.1) zelazny; urgency=low
 
   * Initial release.
